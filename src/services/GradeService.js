@@ -4,8 +4,8 @@ const getAll = () => {
   return http.get('/grade');
 };
 
-const get = (id) => {
-  return http.get(`/grade/${id}`);
+const get = (_id) => {
+  return http.get(`/grade/${_id}`);
 };
 
 const create = (data) => {
